@@ -50,6 +50,8 @@ public:
 	
 	void ClockDraw();
 	void TimerDraw();
+	void SetTimeDraw();
+	void BottomDraw();
 };
 
 #endif

@@ -8,6 +8,7 @@ class LCD {
 public:
 	static const int FIRST_ROW = 0x80;
 	static const int SECOND_ROW = 0x80 + 40;
+	static const int CLEAR_DISPLAY = 0x01;
 
 	LCD();
 	~LCD();
